@@ -1,7 +1,7 @@
 function ClarinetPage() {
   return (
     <>
-      <h1>EN trumpet</h1>
+      <h1>EN Klarinett</h1>
     </>
   );
 }

@@ -1,7 +1,7 @@
 function TrombonePage() {
   return (
     <>
-      <h1>EN trumpet</h1>
+      <h1>EN trombone</h1>
     </>
   );
 }

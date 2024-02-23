@@ -1,7 +1,7 @@
 function SaxophonePage() {
   return (
     <>
-      <h1>EN trumpet</h1>
+      <h1>En saxofone</h1>
     </>
   );
 }

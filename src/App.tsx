@@ -11,14 +11,21 @@ function App() {
   return (
     <div className="h-screen flex flex-col">
       <Header />
-      <nav></nav>
-      <main className="mb-auto">
+      <nav className="flex flex-row">
         <Link to="clarinetPage">
           <Card instrumentPic={clarinet} instrumentName="Klarinett" />
         </Link>
-        <Card instrumentPic={saxophone} instrumentName="Saxofon" />
-        <Card instrumentPic={trumpet} instrumentName="Trumpet" />
-        <Card instrumentPic={trombone} instrumentName="Trombon" />
+        <Link to="saxophonePage">
+          <Card instrumentPic={saxophone} instrumentName="Saxofon" />
+        </Link>
+        <Link to="trumpetPage">
+          <Card instrumentPic={trumpet} instrumentName="Trumpet" />
+        </Link>
+        <Link to="trombonePage">
+          <Card instrumentPic={trombone} instrumentName="Trombon" />
+        </Link>
+      </nav>
+      <main className="mb-auto bg-slate-400">
         <Outlet />
       </main>
 
