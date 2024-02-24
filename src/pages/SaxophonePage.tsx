@@ -1,5 +1,6 @@
 import { useState } from "react";
 import MusicPlayer from "../MusicPlayer.tsx";
+import sound from "../assets/24602__acclivity__tenorsax1.wav";
 import trumpet from "../assets/TrumpetNy.jpg";
 import clarinet from "../assets/clarinett.jpg";
 import saxophone from "../assets/saxophone3.jpg";
@@ -56,23 +57,9 @@ function SaxophonePage() {
       <span onClick={next} className="cursor-pointer">
         ➡️
       </span>
-      <MusicPlayer />
+      <MusicPlayer instrumentSound={sound} />
     </div>
   );
 }
 
 export default SaxophonePage;
-
-/*<h1>En saxofone</h1>
-
-<button onClick={audio.play}>Spela ljud</button>
-
-<div style={{ width: "10rem", overflowX: "hidden" }}>
-  <div style={{ width: "10rem" }}>
-    <img src="" alt="" style={{ width: "100%" }} />
-    <p>lorem..</p>
-  </div>
-  <img src="" alt="" style={{ width: "10rem" }} />
-  <img src="" alt="" style={{ width: "10rem" }} />
-</div>
- const [audio] = useState(new Audio("src"));*/
