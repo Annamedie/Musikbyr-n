@@ -10,14 +10,7 @@ function MusicPlayer({ instrumentSound }: MusicProps) {
   const playSound = () => {
     const playPromise = audio.play();
     if (playPromise !== undefined) {
-      playPromise
-        .then(() => {
-          // Automatic playback started successfully
-        })
-        .catch((error) => {
-          console.error("Playback failed:", error);
-          // Auto-play was prevented or failed
-        });
+      playPromise;
     }
   };
 
