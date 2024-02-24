@@ -8,10 +8,7 @@ function MusicPlayer({ instrumentSound }: MusicProps) {
   const [audio] = useState(new Audio(instrumentSound));
 
   const playSound = () => {
-    const playPromise = audio.play();
-    if (playPromise !== undefined) {
-      playPromise;
-    }
+    audio.play();
   };
 
   return (
