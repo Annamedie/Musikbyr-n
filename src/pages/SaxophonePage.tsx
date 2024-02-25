@@ -1,24 +1,24 @@
 import { useState } from "react";
 import MusicPlayer from "../MusicPlayer.tsx";
-import trumpet from "../assets/picturesStart/TrumpetNy.jpg";
-import clarinet from "../assets/picturesStart/clarinett.jpg";
-import saxophone from "../assets/picturesStart/saxophone3.jpg";
+import baritoneSax from "../assets/slidePics/baritonsax.webp";
+import saxophoneAlt from "../assets/slidePics/saxofonalt.png";
+import tenorSax from "../assets/slidePics/tenorsax.webp";
 import sound from "../assets/sounds/24602__acclivity__tenorsax1.wav";
 const infoSlider = [
   {
-    image: trumpet,
+    image: saxophoneAlt,
     textInfo:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
     key: "1",
   },
   {
-    image: clarinet,
+    image: tenorSax,
     textInfo:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
     key: "2",
   },
   {
-    image: saxophone,
+    image: baritoneSax,
     textInfo:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
     key: 3,
