@@ -3,7 +3,7 @@ import MusicPlayer from "../MusicPlayer.tsx";
 import basClarinet from "../assets/slidePics/basclarinet.webp";
 import clarinetPicco from "../assets/slidePics/clarinettpiccolo.webp";
 import clarinet from "../assets/slidePics/clarinettv.webp";
-import sound from "../assets/sounds/24602__acclivity__tenorsax1.wav";
+import soundClarinet from "../assets/sounds/clarinettljud.mp3";
 const infoSlider = [
   {
     image: clarinetPicco,
@@ -57,7 +57,7 @@ function ClarinetPage() {
       <span onClick={next} className="cursor-pointer">
         ➡️
       </span>
-      <MusicPlayer instrumentSound={sound} />
+      <MusicPlayer instrumentSound={soundClarinet} />
     </div>
   );
 }

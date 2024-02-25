@@ -3,7 +3,7 @@ import MusicPlayer from "../MusicPlayer.tsx";
 import baritoneSax from "../assets/slidePics/baritonsax.webp";
 import saxophoneAlt from "../assets/slidePics/saxofonalt.png";
 import tenorSax from "../assets/slidePics/tenorsax.webp";
-import sound from "../assets/sounds/24602__acclivity__tenorsax1.wav";
+import soundSax from "../assets/sounds/24602__acclivity__tenorsax1.wav";
 const infoSlider = [
   {
     image: saxophoneAlt,
@@ -57,7 +57,7 @@ function SaxophonePage() {
       <span onClick={next} className="cursor-pointer">
         ➡️
       </span>
-      <MusicPlayer instrumentSound={sound} />
+      <MusicPlayer instrumentSound={soundSax} />
     </div>
   );
 }

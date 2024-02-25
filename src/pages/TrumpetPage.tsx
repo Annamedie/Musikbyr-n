@@ -3,7 +3,7 @@ import MusicPlayer from "../MusicPlayer.tsx";
 import bassTrumpet from "../assets/slidePics/basstrumpet.jpg";
 import piccoTrumpet from "../assets/slidePics/piccoloTrumpet.jpg";
 import trumpet from "../assets/slidePics/vanligtrumpet.jpg";
-import sound from "../assets/sounds/24602__acclivity__tenorsax1.wav";
+import soundTrumpet from "../assets/sounds/194624__harbour11__trumpet2.wav";
 const infoSlider = [
   {
     image: piccoTrumpet,
@@ -57,7 +57,7 @@ function TrumpetPage() {
       <span onClick={next} className="cursor-pointer">
         ➡️
       </span>
-      <MusicPlayer instrumentSound={sound} />
+      <MusicPlayer instrumentSound={soundTrumpet} />
     </div>
   );
 }

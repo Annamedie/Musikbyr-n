@@ -3,7 +3,7 @@ import MusicPlayer from "../MusicPlayer.tsx";
 import contraTrombone from "../assets/slidePics/ContrabassTrombone.jpg";
 import piccoTrombone from "../assets/slidePics/piccolotrombone.jpg";
 import trombone from "../assets/slidePics/trombonev.webp";
-import sound from "../assets/sounds/24602__acclivity__tenorsax1.wav";
+import soundTrombone from "../assets/sounds/73587__timbre__benboncan__sad_trombone_more_wah_pseudostereo_reverb.wav";
 const infoSlider = [
   {
     image: piccoTrombone,
@@ -57,7 +57,7 @@ function TrombonePage() {
       <span onClick={next} className="cursor-pointer">
         ➡️
       </span>
-      <MusicPlayer instrumentSound={sound} />
+      <MusicPlayer instrumentSound={soundTrombone} />
     </div>
   );
 }
