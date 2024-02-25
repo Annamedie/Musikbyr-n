@@ -1,9 +1,9 @@
 import { useState } from "react";
 import MusicPlayer from "../MusicPlayer.tsx";
-import sound from "../assets/24602__acclivity__tenorsax1.wav";
-import trumpet from "../assets/TrumpetNy.jpg";
-import clarinet from "../assets/clarinett.jpg";
-import saxophone from "../assets/saxophone3.jpg";
+import trumpet from "../assets/picturesStart/TrumpetNy.jpg";
+import clarinet from "../assets/picturesStart/clarinett.jpg";
+import saxophone from "../assets/picturesStart/saxophone3.jpg";
+import sound from "../assets/sounds/24602__acclivity__tenorsax1.wav";
 const infoSlider = [
   {
     image: trumpet,

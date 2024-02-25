@@ -2,10 +2,10 @@ import { Link, Outlet } from "react-router-dom";
 import Card from "./Card";
 import Footer from "./Footer";
 import Header from "./Header";
-import trombone from "./assets/Trombone.jpg";
-import trumpet from "./assets/TrumpetNy.jpg";
-import clarinet from "./assets/clarinett.jpg";
-import saxophone from "./assets/saxophone3.jpg";
+import trombone from "./assets/picturesStart/Trombone.jpg";
+import trumpet from "./assets/picturesStart/TrumpetNy.jpg";
+import clarinet from "./assets/picturesStart/clarinett.jpg";
+import saxophone from "./assets/picturesStart/saxophone3.jpg";
 
 function App() {
   return (
