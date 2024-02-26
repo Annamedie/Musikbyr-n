@@ -1,32 +1,14 @@
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 import MusicPlayer from "../MusicPlayer.tsx";
-import basClarinet from "../assets/slidePics/basclarinet.webp";
-import clarinetPicco from "../assets/slidePics/clarinettpiccolo.webp";
-import clarinet from "../assets/slidePics/clarinettv.webp";
 import soundClarinet from "../assets/sounds/clarinettljud.mp3";
-const infoSlider = [
-  {
-    image: clarinetPicco,
-    textInfo:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
-    key: "1",
-  },
-  {
-    image: clarinet,
-    textInfo:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
-    key: "2",
-  },
-  {
-    image: basClarinet,
-    textInfo:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
-    key: 3,
-  },
-];
+import { instrumentInfo } from "../instruments.ts";
 
 function ClarinetPage() {
+  const params = useParams();
+  console.log(params.instrument);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const infoSlider = instrumentInfo[params.instrument!].silderInfo;
   const length = infoSlider.length;
   const next = () => {
     setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1);

@@ -12,7 +12,7 @@ function App() {
     <div className="h-screen flex flex-col">
       <Header />
       <nav className="flex flex-row">
-        <Link to="clarinetPage">
+        <Link to="clarinet">
           <Card instrumentPic={clarinet} instrumentName="Klarinett" />
         </Link>
         <Link to="saxophonePage">
