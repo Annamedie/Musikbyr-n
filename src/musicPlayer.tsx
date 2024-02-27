@@ -8,7 +8,13 @@ function MusicPlayer({ instrumentSound }: MusicProps) {
   const [audio, setAudio] = useState(new Audio(instrumentSound));
 
   useEffect(() => {
-    setAudio(new Audio(instrumentSound));
+    const newAudio = new Audio(instrumentSound);
+    setAudio(newAudio);
+
+    return () => {
+      newAudio.pause();
+      newAudio.currentTime = 0;
+    };
   }, [instrumentSound]);
 
   const playSound = () => {
