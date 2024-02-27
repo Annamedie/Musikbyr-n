@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import MusicPlayer from "../MusicPlayer.tsx";
-import soundClarinet from "../assets/sounds/clarinettljud.mp3";
 import { instrumentInfo } from "../instruments.ts";
 
-function ClarinetPage() {
+function InstrumentPage() {
   const params = useParams();
   console.log(params.instrument);
   const [currentSlide, setCurrentSlide] = useState(0);
   const infoSlider = instrumentInfo[params.instrument!].silderInfo;
+  const instrumentAudio = instrumentInfo[params.instrument!].audio;
   const length = infoSlider.length;
   const next = () => {
     setCurrentSlide(currentSlide === length - 1 ? 0 : currentSlide + 1);
@@ -39,8 +39,8 @@ function ClarinetPage() {
       <span onClick={next} className="cursor-pointer">
         ➡️
       </span>
-      <MusicPlayer instrumentSound={soundClarinet} />
+      <MusicPlayer instrumentSound={instrumentAudio} />
     </div>
   );
 }
-export default ClarinetPage;
+export default InstrumentPage;

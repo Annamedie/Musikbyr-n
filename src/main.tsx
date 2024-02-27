@@ -7,12 +7,12 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import App from "./App";
-import ClarinetPage from "./pages/ClarinetPage.tsx";
+import InstrumentPage from "./pages/InstrumentPage.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" Component={App}>
-      <Route path=":instrument" Component={ClarinetPage} />
+      <Route path=":instrument" Component={InstrumentPage} />
     </Route>
   )
 );

@@ -15,13 +15,13 @@ function App() {
         <Link to="clarinet">
           <Card instrumentPic={clarinet} instrumentName="Klarinett" />
         </Link>
-        <Link to="saxophonePage">
+        <Link to="saxophone">
           <Card instrumentPic={saxophone} instrumentName="Saxofon" />
         </Link>
-        <Link to="trumpetPage">
+        <Link to="trumpet">
           <Card instrumentPic={trumpet} instrumentName="Trumpet" />
         </Link>
-        <Link to="trombonePage">
+        <Link to="trombone">
           <Card instrumentPic={trombone} instrumentName="Trombon" />
         </Link>
       </nav>
