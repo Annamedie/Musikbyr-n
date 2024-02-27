@@ -12,16 +12,16 @@ function App() {
     <div className="h-screen flex flex-col">
       <Header />
       <nav className="flex flex-row">
-        <Link to="clarinetPage">
+        <Link to="clarinet">
           <Card instrumentPic={clarinet} instrumentName="Klarinett" />
         </Link>
-        <Link to="saxophonePage">
+        <Link to="saxophone">
           <Card instrumentPic={saxophone} instrumentName="Saxofon" />
         </Link>
-        <Link to="trumpetPage">
+        <Link to="trumpet">
           <Card instrumentPic={trumpet} instrumentName="Trumpet" />
         </Link>
-        <Link to="trombonePage">
+        <Link to="trombone">
           <Card instrumentPic={trombone} instrumentName="Trombon" />
         </Link>
       </nav>
