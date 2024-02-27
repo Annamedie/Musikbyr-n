@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import grampohone from "./assets/gramofon.png";
 interface MusicProps {
   instrumentSound: string;
 }
 
 function MusicPlayer({ instrumentSound }: MusicProps) {
-  const [audio] = useState(new Audio(instrumentSound));
+  const [audio, setAudio] = useState(new Audio(instrumentSound));
+
+  useEffect(() => {
+    setAudio(new Audio(instrumentSound));
+  }, [instrumentSound]);
 
   const playSound = () => {
     audio.play();
