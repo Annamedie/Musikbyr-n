@@ -26,7 +26,7 @@ function ClarinetPage() {
       {infoSlider.map((slide, index) => {
         return (
           <div
-            key={slide.key}
+            key={slide.id}
             className={`${
               index === currentSlide ? "block" : "hidden"
             } mx-2 flex flex-col justify-center w-72 bg-white`}
