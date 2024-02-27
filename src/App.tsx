@@ -2,6 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 import Card from "./Card";
 import Footer from "./Footer";
 import Header from "./Header";
+import RandomFacts from "./RandomFact";
 import trombone from "./assets/picturesStart/Trombone.jpg";
 import trumpet from "./assets/picturesStart/TrumpetNy.jpg";
 import clarinet from "./assets/picturesStart/clarinett.jpg";
@@ -28,7 +29,7 @@ function App() {
       <main className="mb-auto bg-slate-400">
         <Outlet />
       </main>
-
+      <RandomFacts />
       <Footer />
     </div>
   );
