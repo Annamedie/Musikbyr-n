@@ -34,7 +34,7 @@ function InstrumentPage() {
               key={slide.id}
               className={`${
                 index === currentSlide ? "block" : "hidden"
-              } mx-2 flex flex-col justify-center w-72 bg-white`}
+              } mx-2 flex flex-col justify-center w-96 bg-cyan-500 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]`}
             >
               <img src={slide.image} alt="Instrument" className=" h-auto m-3" />
               <p>{slide.textInfo}</p>
@@ -56,6 +56,7 @@ const InstrumentDiv = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 2rem;
 `;
 
 const SliderDiv = styled.div`
@@ -63,13 +64,5 @@ const SliderDiv = styled.div`
   align-items: center;
   justify-content: center;
 `;
-const Slider = styled.div`
-  display: ${({ index, currentSlide }) =>
-    index === currentSlide ? "block" : "hidden"};
-  margin: 0 0.5rem;
-  flex-direction: column;
-  justify-content: center;
-  width: 18rem;
-  background-color: white;
-`;
+
 export default InstrumentPage;
