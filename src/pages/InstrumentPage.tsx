@@ -34,10 +34,10 @@ function InstrumentPage() {
               key={slide.id}
               className={`${
                 index === currentSlide ? "block" : "hidden"
-              } mx-2 flex flex-col justify-center w-96 bg-cyan-500 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]`}
+              } mx-2 flex flex-col justify-center w-96 p-2 bg-cyan-500 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] `}
             >
-              <img src={slide.image} alt="Instrument" className=" h-auto m-3" />
-              <p>{slide.textInfo}</p>
+              <InstrumentImage src={slide.image} alt="Instrument" />
+              <Ptext>{slide.textInfo}</Ptext>
             </div>
           );
         })}
@@ -63,6 +63,16 @@ const SliderDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+`;
+
+const InstrumentImage = styled.img`
+  height: auto;
+  margin: 0.75;
+  object-fit: cover;
+`;
+const Ptext = styled.p`
+  font-weight: bold;
+  font-size: 1rem;
 `;
 
 export default InstrumentPage;
