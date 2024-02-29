@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styled, { keyframes } from "styled-components";
 import grampohone from "./assets/gramofon.png";
 interface MusicProps {
   instrumentSound: string;
@@ -23,13 +24,23 @@ function MusicPlayer({ instrumentSound }: MusicProps) {
 
   return (
     <div>
-      <img
-        src={grampohone}
-        alt="Play"
-        onClick={playSound}
-        style={{ cursor: "pointer" }}
-      />
+      <AnimatedGramophone src={grampohone} alt="Play" onClick={playSound} />
     </div>
   );
 }
+const bounceAnimation = keyframes`
+    0% { transform: scale(1); }
+  20% { transform: scale(1.5); }
+  40% { transform: scale(1); }
+  60% {transform: scale(1.5);}
+  100% { transform: scale(1); }
+`;
+const AnimatedGramophone = styled.img`
+  margin-top: 1rem;
+  cursor: pointer;
+  height: 300px;
+  &:hover {
+    animation: ${bounceAnimation} 1s ease;
+  }
+`;
 export default MusicPlayer;

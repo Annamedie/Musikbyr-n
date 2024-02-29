@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Card from "./Card";
 import Footer from "./Footer";
 import Header from "./Header";
-import RandomFacts from "./RandomFact";
 import backgroundpic from "./assets/musikbakgrund.webp";
 import trombone from "./assets/picturesStart/Trombone.jpg";
 import trumpet from "./assets/picturesStart/TrumpetNy.jpg";
@@ -31,7 +30,7 @@ function App() {
       <Main>
         <Outlet />
       </Main>
-      <RandomFacts />
+
       <Footer />
     </Wrapper>
   );
@@ -60,6 +59,7 @@ const Wrapper = styled.div`
 `;
 const Navigation = styled.nav`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1em;
   background-image: url(${backgroundpic});

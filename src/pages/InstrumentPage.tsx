@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import MusicPlayer from "../MusicPlayer.tsx";
+import RandomFacts from "../RandomFact.tsx";
 import { instrumentInfo } from "../instruments.ts";
 
 function InstrumentPage() {
@@ -24,6 +25,7 @@ function InstrumentPage() {
   return (
     <InstrumentDiv>
       <SliderDiv>
+        <RandomFacts />
         <ChevronDoubleLeftIcon
           onClick={previous}
           className="cursor-pointer h-14 w-14"
@@ -53,10 +55,10 @@ function InstrumentPage() {
 
 const InstrumentDiv = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
-  margin-top: 2rem;
+  flex-direction: row;
+  margin: 2rem;
 `;
 
 const SliderDiv = styled.div`
