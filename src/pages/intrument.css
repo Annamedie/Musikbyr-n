@@ -1,0 +1,12 @@
+/* intrument.css */
+.active-slide {
+  display: block;
+  opacity: 1; /* The slide should be fully visible when active */
+  transition: opacity 1s ease; /* Smooth transition for the opacity */
+}
+
+.next-slide {
+  /* Keep the slide as a block so it can transition */
+  opacity: 0; /* Start at transparent */
+  transition: opacity 1s ease; /* Smooth transition for the opacity */
+}
