@@ -24,8 +24,8 @@ function InstrumentPage() {
 
   return (
     <InstrumentDiv>
+      <RandomFacts />
       <SliderDiv>
-        <RandomFacts />
         <ChevronDoubleLeftIcon
           onClick={previous}
           className="cursor-pointer h-14 w-14"
@@ -56,6 +56,7 @@ function InstrumentPage() {
 const InstrumentDiv = styled.div`
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
   margin: 2rem;

@@ -4,7 +4,7 @@ const HeadDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3em;
+  height: 7em;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -14,7 +14,7 @@ const HeadDiv = styled.div`
   );
 `;
 const HeadH1 = styled.h1`
-  font-size: 1.5em;
+  font-size: 2em;
   color: white;
   font-family: Kalnia;
 `;

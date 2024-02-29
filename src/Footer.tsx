@@ -21,7 +21,7 @@ const H2Text = styled.h2`
 function Footer() {
   return (
     <Footeer>
-      <H2Text>Detta är footern</H2Text>
+      <H2Text>Upptäck blåsets magiska värld</H2Text>
     </Footeer>
   );
 }
