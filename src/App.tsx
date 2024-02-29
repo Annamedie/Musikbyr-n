@@ -50,6 +50,13 @@ const Wrapper = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: rgb(51, 197, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(51, 197, 209, 1) 16%,
+    rgba(8, 46, 123, 1) 50%,
+    rgba(38, 194, 228, 1) 93%
+  );
 `;
 const Navigation = styled.nav`
   display: flex;
