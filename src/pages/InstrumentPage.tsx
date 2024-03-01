@@ -1,5 +1,7 @@
-import { ChevronDoubleLeftIcon } from "@heroicons/react/16/solid";
-import { ChevronDoubleRightIcon } from "@heroicons/react/20/solid";
+import {
+  ChevronDoubleLeftIcon,
+  ChevronDoubleRightIcon,
+} from "@heroicons/react/20/solid";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";

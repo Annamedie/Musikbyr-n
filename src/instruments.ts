@@ -56,7 +56,7 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: saxophoneAlt,
         textInfo:
-          "AltSaxofonen, är den första saxofonen. Uppfunnen av belgieske Adolphe Sax år  1840. Väldigt populär i hela musik välden (dock mindre i orkestersamanhang) och är en viktig del i utvecklingen av Jazz.",
+          "Altsaxofonen, är den första saxofonen. Uppfunnen av belgaren Adolphe Sax år  1840. Väldigt populär i hela musik välden (dock mindre i orkestersamanhang) och är en viktig del i utvecklingen av Jazz.",
         id: "4",
       },
       {
