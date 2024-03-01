@@ -29,7 +29,7 @@ function MusicPlayer({ instrumentSound }: MusicProps) {
   );
 }
 const bounceAnimation = keyframes`
-    0% { transform: scale(1); }
+    1% { transform: scale(1); }
   20% { transform: scale(1.5); }
   40% { transform: scale(1); }
   60% {transform: scale(1.5);}
