@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styled from "styled-components";
 
 function RandomFacts() {
   const [fact, setfact] = useState("");
@@ -11,9 +12,19 @@ function RandomFacts() {
       });
   }, []);
   return (
-    <div>
-      <p>{fact}</p>
-    </div>
+    <FactsDiv>
+      <FactText>{fact}</FactText>
+    </FactsDiv>
   );
 }
+const FactsDiv = styled.div`
+  margin: 2rem;
+  border: 2px solid white;
+  padding: 1rem;
+  max-width: 200px;
+`;
+const FactText = styled.p`
+  font-family: Arial, Helvetica, sans-serif;
+`;
+
 export default RandomFacts;

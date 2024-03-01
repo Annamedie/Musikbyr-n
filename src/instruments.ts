@@ -33,19 +33,19 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: clarinetPicco,
         textInfo:
-          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Piccoloklarinett den minsta och den med högst tonart (A-flat) av de i klarinett familjen som fortfarande tillverkas. Populärast under 1800-talet i militärband. ",
         id: "1",
       },
       {
         image: clarinet,
         textInfo:
-          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Klarinetten är uppfunnen av en tysk år 1690. Den baseras på en mer flöjtliknande skapelse Chalumeau. I början hade den bara 5 klaffar men har idag över tjugo! Stämd vanligast i Bess.",
         id: "2",
       },
       {
         image: basClarinet,
         textInfo:
-          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Basklarinetten ser ut som en smal saxofon.De tidiga skapelserna hade varierande utseende. De är ganska tunga och ofta har man sele som hjälper bära upp den. Har ökat i popularitet under åren.",
         id: "3",
       },
     ],
@@ -56,19 +56,19 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: saxophoneAlt,
         textInfo:
-          "Ngt om Alt saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Altsaxofonen, är den första saxofonen. Uppfunnen av belgaren Adolphe Sax år  1840. Väldigt populär i hela musik välden (dock mindre i orkestersamanhang) och är en viktig del i utvecklingen av Jazz.",
         id: "4",
       },
       {
         image: tenorSax,
         textInfo:
-          "Ngt om Tenor saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Tenorsaxofonen och är en av de vanligaste saxofonerna tillsammans med altsaxofonen men något större. Även denna har betytt mycket för Jazz. Tanken med instrumenten är att vara en bro mellan brass och träblåsinstrument. Förekommer även i klassisk musik.",
         id: "5",
       },
       {
         image: baritoneSax,
         textInfo:
-          "Ngt om Tenor saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Baritonsaxofonen är stor och lägre i tonen. Ovanligare än sina två syskon. Förekommer i militärband, storband, och även rockband. Clarence Clemons spelade baritonsax i E Street band med Bruce Springsteen.",
         id: "6",
       },
     ],
@@ -79,19 +79,19 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: piccoTrombone,
         textInfo:
-          "Ngt om Alt saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Piccolotrombonen är den minsta i trombon familjen. Har samma munstycke som trumpeten och därför kan de som spelar piccolotrombon oftast spela båda! Liknar piccolo trumpeten i ljudet. Används ofta i tyska brassband som uppvisning instrument.",
         id: "7",
       },
       {
         image: trombone,
         textInfo:
-          "Ngt om Tenor saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Ordet trombon kommer från italienskan tromba och betyder stor trumpet. De flesta tromboner har en teleskopisk dragbygel som bestämmer tonen. De raka fanfartrumpeterna från 1400-talet är den ursprungliga trombonen och ett gammalt ord för trombon är sackbut.",
         id: "8",
       },
       {
         image: contraTrombone,
         textInfo:
-          "Ngt om Tenor saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Contrabasstrombonen har idag två dragbyglar, från början var det bara en jättelång. Detta gjorde instrumentet otympligt att spela. Den är inte ett populärt instrument men hade ett uppsving under renässansen.",
         id: "9",
       },
     ],
@@ -102,19 +102,19 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: piccoTrumpet,
         textInfo:
-          "Ngt om Alt saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Piccolotrumpeten är minst i sin familj och är stämd en tonarthögre än den vanliga trumpeten. Kallas för Bach trumpeten efter kompositören. Eftersom den uppfanns för att spela stycken av nämnde. I Penny Lane av Beatles finns ett piccolotrumpet solo.",
         id: "7",
       },
       {
         image: trumpet,
         textInfo:
-          "Ngt om Tenor saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Trumpeten har ett av de högsta registrerna bland bleckblåsinstrumenten. Urspunget finnes i olika signalinstrument som exempelvis jakthornet. Instrumentet används ofta i symfoniorkestrar.",
         id: "8",
       },
       {
         image: bassTrumpet,
         textInfo:
-          "Ngt om Tenor saxen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, neque. Ad voluptatibus sint aliquam molestiae ea optio doloremque reprehenderit esse id! Ex minima ad neque reprehenderit consequatur quidem distinctio quae.",
+          "Basstrumpeten har sitt ursprung i 1820-talets Tyskland. Wagner var en flitig användare av detta instrument men är inte jättevanlig i något musiksamanhang.",
         id: "9",
       },
     ],
