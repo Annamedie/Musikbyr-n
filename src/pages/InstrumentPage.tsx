@@ -5,7 +5,6 @@ import {
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-
 import MusicPlayer from "../MusicPlayer.tsx";
 import RandomFacts from "../RandomFact.tsx";
 import { instrumentInfo } from "../instruments.ts";
