@@ -39,13 +39,13 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: clarinet,
         textInfo:
-          "Klarinetten är uppfunnen av en tysk år 1690. Den baseras på en mer flöjtliknande skapelse Chalumeau. I början hade den bara 5 klaffar men har idag över tjugo! Stämd vanligast i Bess",
+          "Klarinetten är uppfunnen av en tysk år 1690. Den baseras på en mer flöjtliknande skapelse Chalumeau. I början hade den bara 5 klaffar men har idag över tjugo! Stämd vanligast i Bess.",
         id: "2",
       },
       {
         image: basClarinet,
         textInfo:
-          "Basklarinetten ser ut som en smal saxofon.De tidiga skapelserna hade varierande utseende. De är ganska tunga och ofta har man sele som hjälper bära upp den. Har ökat i popularitet under åren",
+          "Basklarinetten ser ut som en smal saxofon.De tidiga skapelserna hade varierande utseende. De är ganska tunga och ofta har man sele som hjälper bära upp den. Har ökat i popularitet under åren.",
         id: "3",
       },
     ],
@@ -62,7 +62,7 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: tenorSax,
         textInfo:
-          "Tenorsaxofonen och är en av de vanligaste saxofonerna tillsammans med altsaxofonen men något större. Även denna har betytt mycket för Jazz. Tanken med instrumenten är att vara en bro mellan brass och träblåsinstrument. Förekommer även i klassisk musik",
+          "Tenorsaxofonen och är en av de vanligaste saxofonerna tillsammans med altsaxofonen men något större. Även denna har betytt mycket för Jazz. Tanken med instrumenten är att vara en bro mellan brass och träblåsinstrument. Förekommer även i klassisk musik.",
         id: "5",
       },
       {
@@ -85,13 +85,13 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: trombone,
         textInfo:
-          "Ordet trombon kommer från italienskan tromba och betyder stor trumpet. De flesta tromboner har en teleskopisk dragbygel som bestämmer tonen. De raka fanfartrumpeterna från 1400-talet är den ursprungliga trombonen och ett gammalt ord för trombon är sackbut",
+          "Ordet trombon kommer från italienskan tromba och betyder stor trumpet. De flesta tromboner har en teleskopisk dragbygel som bestämmer tonen. De raka fanfartrumpeterna från 1400-talet är den ursprungliga trombonen och ett gammalt ord för trombon är sackbut.",
         id: "8",
       },
       {
         image: contraTrombone,
         textInfo:
-          "Contrabasstrombonen har idag två dragbyglar, från början var det bara en jättelång. Detta gjorde instrumentet otympligt att spela. Den är inte ett populärt instrument men hade ett uppsving under renässansen",
+          "Contrabasstrombonen har idag två dragbyglar, från början var det bara en jättelång. Detta gjorde instrumentet otympligt att spela. Den är inte ett populärt instrument men hade ett uppsving under renässansen.",
         id: "9",
       },
     ],
@@ -108,7 +108,7 @@ export const instrumentInfo: Record<string, Instrument> = {
       {
         image: trumpet,
         textInfo:
-          "Trumpeten har ett av de högsta registrerna bland bleckblåsinstrumenten. Urspunget finnes i olika signalinstrument som exempelvis jakthornet. Instrumentet används ofta i symfoniorkestrar",
+          "Trumpeten har ett av de högsta registrerna bland bleckblåsinstrumenten. Urspunget finnes i olika signalinstrument som exempelvis jakthornet. Instrumentet används ofta i symfoniorkestrar.",
         id: "8",
       },
       {
